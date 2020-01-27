@@ -1,0 +1,28 @@
+div {
+  padding: 10px;
+}
+
+.well {
+  border: 1px solid black;
+}
+
+.orange-box {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+.many-box {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.blue-box {
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.footer-box {
+  background-color: silver;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */

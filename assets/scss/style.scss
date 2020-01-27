@@ -1,0 +1,51 @@
+@mixin div {
+    padding: 10px;
+}
+
+div {
+    @include div;
+}
+
+@mixin well {
+    border: 1px solid black;
+}
+
+.well {
+    @include well;
+}
+
+@mixin orange-box {
+    background-color: orange;
+}
+
+.orange-box {
+    @include orange-box;
+    @include well;
+}
+
+@mixin many-box {
+    background-color: yellow;
+}
+
+.many-box {
+    @include many-box;
+    @include well;
+}
+
+@mixin blue-box {
+    background-color: blue;
+}
+
+.blue-box {
+    @include blue-box;
+    @include well;
+}
+
+@mixin footer-box {
+    background-color: silver;
+}
+
+.footer-box {
+    @include footer-box;
+    @include well;
+}
